@@ -1,7 +1,7 @@
 # Liudmila Pinchuk
 ****
 
-![avatar](/image_560307140116359334348.jpg "flowers")
+![avatar](image_560307140116359334348.jpg "flowers")
 
 ## Contacts
 * **Location:** Gdansk, Poland
