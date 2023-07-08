@@ -18,7 +18,7 @@ body {
 }
 .section {
   margin: 0; 
-  padding 0;
+  padding: 0;
 }
 #header-container {
   padding-bottom: 10px;
@@ -74,25 +74,26 @@ body {
 }
 .right {
   width: 65%;
-  padding-left: 20px;
+  padding-left: 35px;
   padding-right: 20px;
 }
 .name-section {
   position: relative;
   top: 45px;
   left: -110px;
+
   border: 15px solid rgb(247, 212, 156);
   text-align: center;
   font-family: 'Paytone One', sans-serif;
   font-size: 80px;
   text-transform: uppercase;
   letter-spacing: 5px;
-  line-height: 24px;
+  line-height: 100px;
 }
 p.about {
   text-align: justify;
   text-indent: 48px;
-  margin-top: 0;
+  margin-top: 10px;
   margin-bottom: 0;
 }
 .right-list > li {
