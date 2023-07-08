@@ -3,7 +3,6 @@ html {
 }
 * {
   box-sizing: border-box;
-  border: 1px solid red;
 }
 body {
   margin: 0; padding: 0;
@@ -18,9 +17,11 @@ body {
   margin: 0 auto;
 }
 .section {
-  margin: 0; padding 0;
+  margin: 0; 
+  padding 0;
 }
 #header-container {
+  padding-bottom: 10px;
   background-color: rgba(252, 192, 192, 0.855);
 }
 .nav-list {
@@ -88,7 +89,7 @@ body {
   letter-spacing: 5px;
   line-height: 24px;
 }
-#about > p {
+p.about {
   text-align: justify;
   text-indent: 48px;
   margin-top: 0;
@@ -110,22 +111,23 @@ body {
   height: 14px; 
   color: rgb(247, 212, 156);
 }
-#code-container {
+.code-container {
   width: max-content;
   border: 2px solid black;
 }
 #footer-container {
-  background-color: rgb(252, 192, 192);
+  padding-top: 10px;
+  background-color: #fcc0c0;
 }
 .nav-list-foot {
   display: flex;
   flex-direction: raw;
-  justify-content: space-between;
+  justify-content: space-evenly;
   list-style: none;
-  line-height: 70px;
-  font-size: 48px;
-  color: white;
-  font-weight: bold;
+  line-height: 70px; 
 }
-
-
+.nav-list-foot > li {
+  display: inline-flex;
+  font-family: 'Paytone One', sans-serif;
+  font-size: 48px;
+}
