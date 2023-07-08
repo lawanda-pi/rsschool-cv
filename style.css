@@ -1,9 +1,134 @@
-h1 {
-    color: blue;
-    background-color: yellow;
-    border: 1px solid black;
-  }
-  
-  p {
-    color: red;
-  }
+html {
+  scroll-behavior: smooth; 
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0; padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.section {
+  margin: 0; 
+  padding: 0;
+}
+#header-container {
+  padding-bottom: 10px;
+  background-color: rgba(252, 192, 192, 0.855);
+}
+.nav-list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding-left: 0 20px;
+  line-height: 50px;
+}
+.nav-link {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+.nav-link:hover {
+  color:black;
+  text-decoration: underline;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+.content {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  font-size: 32px;
+}
+.left {
+  width: 35%;
+  background-color: rgba(249, 104, 89, 0.855);
+  padding-left: 30px;
+  padding-right: 20px;
+}
+.section1 {
+  text-align: justify;
+  line-height: 48px;
+  padding-top: 80px;
+}
+.relative-position {
+  position: relative;
+  z-index: 1;
+  top: 20px;
+  left: 50px;
+}
+#avatar {
+  width: 500px;
+  height: 500px;
+  border: 15px solid rgb(252, 192, 192);
+  border-radius: 50% 50%;
+}
+.right {
+  width: 65%;
+  padding-left: 35px;
+  padding-right: 20px;
+}
+.name-section {
+  position: relative;
+  top: 45px;
+  left: -110px;
+
+  border: 15px solid rgb(247, 212, 156);
+  text-align: center;
+  font-family: 'Paytone One', sans-serif;
+  font-size: 80px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 100px;
+}
+p.about {
+  text-align: justify;
+  text-indent: 48px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.right-list > li {
+  list-style: none;
+}
+.section2 {
+  width: 100%;
+  text-align: justify;
+  line-height: 1.5em;
+}
+.section2 > .section-title {
+  text-decoration: underline rgb(247, 212, 156) 10px;
+}
+.right-list span {
+  width: 14px;
+  height: 14px; 
+  color: rgb(247, 212, 156);
+}
+.code-container {
+  width: max-content;
+  border: 2px solid black;
+}
+#footer-container {
+  padding-top: 10px;
+  background-color: #fcc0c0;
+}
+.nav-list-foot {
+  display: flex;
+  flex-direction: raw;
+  justify-content: space-evenly;
+  list-style: none;
+  line-height: 70px; 
+}
+.nav-list-foot > li {
+  display: inline-flex;
+  font-family: 'Paytone One', sans-serif;
+  font-size: 48px;
+}
